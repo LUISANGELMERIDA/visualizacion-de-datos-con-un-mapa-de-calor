@@ -7,7 +7,7 @@ body {
 body .d3-tip {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 6px;
-  color: white;
+  color: rgb(148, 230, 245);
   text-align: center;
   padding: 0.5em;
 }
