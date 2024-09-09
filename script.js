@@ -1,10 +1,5 @@
-/* global d3 */
-/* eslint-disable max-len */
 
-// eslint-disable-next-line no-unused-vars
-const projectName = 'heat-map';
-
-// coded by @paycoguy & @ChristianPaul (github)
+const projectName = 'Mapa de calor';
 
 var url =
   'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/global-temperature.json';
@@ -155,7 +150,7 @@ function callback(data) {
   heading
     .append('h1')
     .attr('id', 'title')
-    .text('Monthly Global Land-Surface Temperature');
+    .text('Temperatura global mensual de la superficie terrestre');
   heading
     .append('h3')
     .attr('id', 'description')
@@ -163,7 +158,7 @@ function callback(data) {
       data.monthlyVariance[0].year +
         ' - ' +
         data.monthlyVariance[data.monthlyVariance.length - 1].year +
-        ': base temperature ' +
+        ': Temperatura base ' +
         data.baseTemperature +
         '&#8451;'
     );
